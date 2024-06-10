@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyDW0A-KlkdTI_HEY0h8RbQNvN3IdKOFFx4'
+api_key = 
 youtube = build('youtube', 'v3', developerKey= api_key)
 
 def get_channel_stats(youtube, channel_id):
